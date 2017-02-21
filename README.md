@@ -1,5 +1,5 @@
-                                                <b>TextSearchEngine</b>
-                                                 <b>Version Beta.01</b>
+<b>TextSearchEngine</b>
+<b>Version Beta.01</b>
 <b>Please Note: The idea of this use case is very large and there are a lot of scenarios to cover.  Say for example the system that reads 1kb file is different from 2gb text file.  In real scenarios the use of Tree/Binary Tree/Binary Search Tree is encouraged with Bredth First Search and Depth First Search. While implementing those will take more time, I am limiting myself with the available classes in .NET.  However, Instead of FileInfo, while reading the text file, I have used MemoryMappedInfo, a new class for reading large files in .NET 4.0.
 <br/>Please Note:  I could not cover all the unit testing scenarios and unit test coverage for all the files are absent due to time constraint.  I have followed TDD for writing SearchBaseTest.  The code is completely modular and the unit tests can be written on it at any time.  I will add more unit tests after submission.</b>
 <b>Use Cases</b>
