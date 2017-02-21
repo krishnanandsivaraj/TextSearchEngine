@@ -4,3 +4,15 @@ C:\Users\dotne\OneDrive\Documents\Visual Studio 2015\Projects\RealImage\SearchEn
 C:\Users\dotne\OneDrive\Documents\Visual Studio 2015\Projects\RealImage\SearchEngine\SearchEngine\obj\Debug\SearchEngine.csprojResolveAssemblyReference.cache
 C:\Users\dotne\OneDrive\Documents\Visual Studio 2015\Projects\RealImage\SearchEngine\SearchEngine\obj\Debug\SearchEngine.exe
 C:\Users\dotne\OneDrive\Documents\Visual Studio 2015\Projects\RealImage\SearchEngine\SearchEngine\obj\Debug\SearchEngine.pdb
+D:\TextSearchEngine-master\TextSearchEngine-master\SearchEngine\bin\Debug\SearchEngine.exe.config
+D:\TextSearchEngine-master\TextSearchEngine-master\SearchEngine\bin\Debug\SearchEngine.exe
+D:\TextSearchEngine-master\TextSearchEngine-master\SearchEngine\bin\Debug\SearchEngine.pdb
+D:\TextSearchEngine-master\TextSearchEngine-master\SearchEngine\obj\Debug\SearchEngine.exe
+D:\TextSearchEngine-master\TextSearchEngine-master\SearchEngine\obj\Debug\SearchEngine.pdb
+D:\TextSearchEngine-master\TextSearchEngine-master\SearchEngine\obj\Debug\SearchEngine.csprojResolveAssemblyReference.cache
+F:\TextSearchEngine-master\TextSearchEngine-master\SearchEngine\bin\Debug\SearchEngine.exe.config
+F:\TextSearchEngine-master\TextSearchEngine-master\SearchEngine\obj\Debug\SearchEngine.exe
+F:\TextSearchEngine-master\TextSearchEngine-master\SearchEngine\obj\Debug\SearchEngine.pdb
+F:\TextSearchEngine-master\TextSearchEngine-master\SearchEngine\bin\Debug\SearchEngine.exe
+F:\TextSearchEngine-master\TextSearchEngine-master\SearchEngine\bin\Debug\SearchEngine.pdb
+F:\TextSearchEngine-master\TextSearchEngine-master\SearchEngine\obj\Debug\SearchEngine.csprojResolveAssemblyReference.cache

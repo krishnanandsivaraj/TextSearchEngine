@@ -11,13 +11,12 @@ namespace SearchEngine
 
         static void Main(string[] args)
         {
-            
+
             string command = args[0].ToLower();
-            string[] searchKeyWords=args.Where(s=>s!= command).ToArray();
+            string[] searchKeyWords = args.Where(s => s != command).ToArray();
 
             SearchFactory.GetInstance(command).Search(searchKeyWords);
             
-            Console.WriteLine(Convert.ToString(command));
             Console.Read();
         }
     }

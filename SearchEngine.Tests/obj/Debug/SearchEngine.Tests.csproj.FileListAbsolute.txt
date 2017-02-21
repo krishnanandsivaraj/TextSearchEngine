@@ -5,3 +5,12 @@ C:\Users\dotne\OneDrive\Documents\Visual Studio 2015\Projects\RealImage\SearchEn
 C:\Users\dotne\OneDrive\Documents\Visual Studio 2015\Projects\RealImage\SearchEngine\SearchEngine.Tests\obj\Debug\SearchEngine.Tests.csprojResolveAssemblyReference.cache
 C:\Users\dotne\OneDrive\Documents\Visual Studio 2015\Projects\RealImage\SearchEngine\SearchEngine.Tests\obj\Debug\SearchEngine.Tests.dll
 C:\Users\dotne\OneDrive\Documents\Visual Studio 2015\Projects\RealImage\SearchEngine\SearchEngine.Tests\obj\Debug\SearchEngine.Tests.pdb
+F:\TextSearchEngine-master\TextSearchEngine-master\SearchEngine.Tests\bin\Debug\SearchEngine.Tests.dll
+F:\TextSearchEngine-master\TextSearchEngine-master\SearchEngine.Tests\bin\Debug\SearchEngine.Tests.pdb
+F:\TextSearchEngine-master\TextSearchEngine-master\SearchEngine.Tests\bin\Debug\nunit.framework.dll
+F:\TextSearchEngine-master\TextSearchEngine-master\SearchEngine.Tests\bin\Debug\SearchEngine.exe
+F:\TextSearchEngine-master\TextSearchEngine-master\SearchEngine.Tests\bin\Debug\SearchEngine.pdb
+F:\TextSearchEngine-master\TextSearchEngine-master\SearchEngine.Tests\bin\Debug\nunit.framework.xml
+F:\TextSearchEngine-master\TextSearchEngine-master\SearchEngine.Tests\obj\Debug\SearchEngine.Tests.csprojResolveAssemblyReference.cache
+F:\TextSearchEngine-master\TextSearchEngine-master\SearchEngine.Tests\obj\Debug\SearchEngine.Tests.dll
+F:\TextSearchEngine-master\TextSearchEngine-master\SearchEngine.Tests\obj\Debug\SearchEngine.Tests.pdb

@@ -1,7 +1,9 @@
-﻿namespace SearchEngine
+﻿using System.Collections.Generic;
+
+namespace SearchEngine
 {
     public interface IFactory
     {
-        string Search(string[] s);
+        Dictionary<string, List<string>> Search(string[] s);
     }
 }

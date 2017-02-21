@@ -1,0 +1,3 @@
+lorem contained in : textfile1.txt,
+gotcha contained in : textfile2.txt,
+lalaland contained in : textfile2.txt, textfile3.txt,

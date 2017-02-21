@@ -8,25 +8,23 @@ namespace SearchEngine
 {
     public class SearchBase
     {
-        public Dictionary<string,string> BaseSearch(string[] searchKeyWords)
+        List<long> badPositions = new List<long>();
+        List<byte> currentLine = new List<byte>();
+        List<string> lines = new List<string>();
+        bool lastReadByteWasLF = false;
+        int linesToRead = 20, linesRead = 0;
+        long lastBytePos;
+
+        Dictionary<string, string> input = new Dictionary<string, string>();
+        Dictionary<string,List<string>> output = new Dictionary<string, List<string>>();
+        Dictionary<string, string> outs = new Dictionary<string, string>();
+
+        public Dictionary<string,List<string>> BaseSearch(string[] searchKeyWords)
         {
-
-            List<long> badPositions = new List<long>();
-            List<byte> currentLine = new List<byte>();
-            List<string> lines = new List<string>();
-            bool lastReadByteWasLF = false;
-            int linesToRead = 20, linesRead = 0;
-            long lastBytePos;
-
-            Dictionary<string, string> input = new Dictionary<string, string>();
-            List<string> output = new List<string>();
-
-            string stringToCheck = null;
-
             FileInfo[] Files = GetFileNamesInsideTheDirectory();
-            string[] files = new string[Files.Length];
-
-                for (int t = 0; t < Files.Length; t++)
+            
+                string[] files = new string[Files.Length];
+            for (int t = 0; t < Files.Length; t++)
                 {
                     files[t] = Files[t].Name;
                     long fileLen = new FileInfo(files[t]).Length;
@@ -46,14 +44,14 @@ namespace SearchEngine
                                         lastReadByteWasLF = false;
                                         currentLine.Insert(0, b);
                                         break;
-                                    case 13:
+                                    case 13://check for carriage return
                                         if (lastReadByteWasLF)
                                         {
-                                            linesRead = SayLastByteWasCReturn(currentLine, lines, linesRead);
+                                            linesRead = AddLastByteWasCReturn(currentLine, lines, linesRead);
                                         }
                                         lastReadByteWasLF = false;
                                         break;
-                                    case 10:
+                                    case 10://check for new line
                                         lastReadByteWasLF = true;
                                         currentLine.Insert(0, b);
                                         break;
@@ -79,27 +77,28 @@ namespace SearchEngine
                     }
                     foreach (var s in lines)
                     {
-                        input.Add(files[t], Convert.ToString(s));
+                    if (files[t] != null) { input[files[t]]= Convert.ToString(s); }
+                        
                     }
                     lines.Clear();
                     currentLine.Clear();
-                    foreach (string search in searchKeyWords)
-                    {
-                        stringToCheck = search;
-                        if (input[files[t]].Contains(stringToCheck) && !output.Contains(files[t]))
-                        {
-                            output.Add(files[t]);
-                        }
+                    output.Clear();
+            }
+            
+                foreach (var s in searchKeyWords)
+                {
+                output.Add(s, null);
+                List<string> temp = new List<string>();
+                for (int u = 0; u < Files.Length; u++)
+                {
+                    if (input[files[u]].Contains(s)) {
+                        temp.Add(files[u]);
                     }
                 }
-            string showResult = stringToCheck + " is contained in :  ";
-            foreach (var outputs in output)
-            {
-                showResult += outputs;
-            }
-            Dictionary<string, string> outs = new Dictionary<string, string>();
-            outs.Add(stringToCheck,showResult);
-            return outs;
+                output[s] = temp;
+                }
+
+                return output;
 
         }
 
@@ -126,11 +125,11 @@ namespace SearchEngine
             catch (Exception ex)
             {
 
-                throw new NotImplementedException(ex.Message);
+                throw new FileNotFoundException(ex.Message);
             }
         }
 
-        public int SayLastByteWasCReturn(List<byte> currentLine, List<string> lines, int linesRead)
+        public int AddLastByteWasCReturn(List<byte> currentLine, List<string> lines, int linesRead)
         {
             var bArray = currentLine.ToArray();
             if (bArray.LongLength > 1)
