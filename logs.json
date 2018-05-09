@@ -1,0 +1,110 @@
+{
+  "errorMessage": "No Error",
+  "result": {
+    "id": null,
+    "_rid": null,
+    "_self": null,
+    "_ts": 0,
+    "_etag": null,
+    "draw": 0,
+    "recordsTotal": 1,
+    "recordsFiltered": 1,
+    "data": [
+      {
+        "DataSource":"Facebook",
+		"ExecutionTime": "2018-10-05",
+		"Status":"Active",
+		"ActionType":"ActiveType1",
+		"ConnectionType":"API",
+		"LogLink":"loglink1"
+      },
+	  {
+        "DataSource":"Facebook",
+		"ExecutionTime": "2018-10-05",
+		"Status":"Active",
+		"ActionType":"ActiveType1",
+		"ConnectionType":"API",
+		"LogLink":"loglink1"
+      },
+	  {
+        "DataSource":"Facebook",
+		"ExecutionTime": "2018-10-05",
+		"Status":"Active",
+		"ActionType":"ActiveType1",
+		"ConnectionType":"API",
+		"LogLink":"loglink1"
+      },
+	  {
+        "DataSource":"Facebook",
+		"ExecutionTime": "2018-10-05",
+		"Status":"Active",
+		"ActionType":"ActiveType1",
+		"ConnectionType":"API",
+		"LogLink":"loglink1"
+      },
+	  {
+        "DataSource":"Facebook",
+		"ExecutionTime": "2018-10-05",
+		"Status":"Active",
+		"ActionType":"ActiveType1",
+		"ConnectionType":"API",
+		"LogLink":"loglink1"
+      },
+	  {
+        "DataSource":"Facebook",
+		"ExecutionTime": "2018-10-05",
+		"Status":"Active",
+		"ActionType":"ActiveType1",
+		"ConnectionType":"API",
+		"LogLink":"loglink1"
+      },
+	  {
+        "DataSource":"Facebook",
+		"ExecutionTime": "2018-10-05",
+		"Status":"Active",
+		"ActionType":"ActiveType1",
+		"ConnectionType":"API",
+		"LogLink":"loglink1"
+      },
+	  {
+        "DataSource":"Facebook",
+		"ExecutionTime": "2018-10-05",
+		"Status":"Active",
+		"ActionType":"ActiveType1",
+		"ConnectionType":"API",
+		"LogLink":"loglink1"
+      },
+	  {
+        "DataSource":"Facebook",
+		"ExecutionTime": "2018-10-05",
+		"Status":"Active",
+		"ActionType":"ActiveType1",
+		"ConnectionType":"API",
+		"LogLink":"loglink1"
+      },
+	  {
+        "DataSource":"Facebook",
+		"ExecutionTime": "2018-10-05",
+		"Status":"Active",
+		"ActionType":"ActiveType1",
+		"ConnectionType":"API",
+		"LogLink":"loglink1"
+      },
+	  {
+        "DataSource":"Facebook",
+		"ExecutionTime": "2018-10-05",
+		"Status":"Active",
+		"ActionType":"ActiveType1",
+		"ConnectionType":"API",
+		"LogLink":"loglink1"
+      }
+    ]
+  },
+  "version": "1.0",
+  "_links": {
+    "self": {
+      "href": "/api/Connectors",
+      "method": "GET"
+    }
+  }
+}
